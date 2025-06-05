@@ -1,1 +1,2 @@
 # RobotDog
+This is a research project that uses Isaac Lab and the Unitree Go2 Robot. The goal is to use reinforcement learning to have our Quadrapedal robot learn to move like a bipedal robot, meaning, our 4 legged robot will learn to move on 2 legs. We will use PD control to achieve this. 
