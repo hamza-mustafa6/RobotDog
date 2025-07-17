@@ -112,6 +112,7 @@ def run_simulator(sim: sim_utils.SimulationContext, entities: dict[str, Articula
                 robot.reset()
             print("[INFO]: Resetting robots state...")
         # apply default actions to the quadrupedal robots
+        
         for robot in entities.values():
             # generate random joint positions
             joint_pos_target = robot.data.default_joint_pos + torch.randn_like(robot.data.joint_pos) * 0.1
